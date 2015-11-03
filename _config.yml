@@ -9,7 +9,7 @@
 title: Fili Santillán
 email: fili06604@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Ejemplo de un simple blog creado con Jekyll
+  Ejemplo de un simple blog creado con Jekyll, para saber como se utiliza puedes verlo en: filisantillan.com.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://filisantillan.com" # the base hostname & protocol for your site
