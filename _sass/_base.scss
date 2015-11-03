@@ -30,7 +30,7 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
+h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
@@ -81,8 +81,15 @@ li {
 /**
  * Headings
  */
-h1, h2, h3, h4, h5, h6 {
+
+h1{
+    font-weight: 900;
+    font-family: $base-font-titles;
+}
+
+h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+    font-family: $base-font-titles;
 }
 
 
@@ -91,7 +98,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $blue-color;
     text-decoration: none;
 
     &:visited {
@@ -99,7 +106,7 @@ a {
     }
 
     &:hover {
-        color: $text-color;
+        color: $link-color;
         text-decoration: underline;
     }
 }
